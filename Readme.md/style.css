@@ -1,0 +1,118 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin:0px;
+    padding: 0px;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 990px;
+
+}
+.logo{
+    display: flex;
+ align-items:center;
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+
+}
+nav ul, nav li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #727272;
+
+
+}
+nav a:active,
+nav a:hover{
+    background-color:#39aee1;
+    color: white;
+}
+
+#banner{
+    display: flex;
+ align-items: center;
+background-image: url('../ex15/imagens/img1.jpg');
+background-position: center;
+background-size: cover;
+max-height: 670px;
+}
+.column{
+    padding: 150px;
+    
+}
+.banner_headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    
+}
+.banner_headline h1{
+    font-size: 65px;
+    color: white;
+    text-shadow: 0px 1px 0px black;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+    }
+.banner_headline h2{
+    color: white;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px black;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 25px;
+    max-width: 350px;
+
+        }
+.banner_options{
+    display: flex;
+    height: 210px;
+    justify-items: center;
+    margin-top: 165px;
+
+}
+.banner1{
+    flex: 1;
+    background-color: #39aee1;
+    color: white;
+
+}
+.banner2{
+    flex:1;
+    background-color:#0079c7 ;
+    color: white;
+
+}
+.banner3{
+    flex:1;
+    background-color:#2b4c99 ;
+    color: white;
+
+}
