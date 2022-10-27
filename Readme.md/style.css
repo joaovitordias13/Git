@@ -57,7 +57,7 @@ nav a:hover{
 #banner{
     display: flex;
  align-items: center;
-background-image: url('../ex15/imagens/img1.jpg');
+background-image: url('../Readme.md/imagens/img1.jpg');
 background-position: center;
 background-size: cover;
 max-height: 670px;
