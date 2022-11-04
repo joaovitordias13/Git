@@ -1,118 +1,36 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
 body{
-    margin:0px;
-    padding: 0px;
-    
-}
-header{
-    display: flex;
-    justify-content: center;
-    height: 120px;
-
-}
-.container{
-    display: flex;
-    justify-content: space-between;
-    
-    width: 990px;
-
-}
-.logo{
-    display: flex;
- align-items:center;
-
-}
-.menu{
-    display: flex;
-    align-items: center;
-
-}
-nav ul, nav li{
     margin: 0;
     padding: 0;
-    list-style: none;
-    
 }
-nav ul{
+.gmail{
     display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+    height: 55px;
 }
-nav a{
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    color: #727272;
-
-
-}
-nav a:active,
-nav a:hover{
-    background-color:#39aee1;
-    color: white;
-}
-
-#banner{
+.google{
     display: flex;
- align-items: center;
-background-image: url('../Readme.md/imagens/img1.jpg');
-background-position: center;
-background-size: cover;
-max-height: 670px;
+    padding: 50px 50px 50px 350px;
+    margin-bottom: 250px;
 }
-.column{
-    padding: 150px;
-    
+.email{
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
 }
-.banner_headline{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content:center ;
-    
+.apps{
+    margin: 10px 10px 10px 10px;
+    height: 40px;
+    width: 60px;
+     
 }
-.banner_headline h1{
-    font-size: 65px;
-    color: white;
-    text-shadow: 0px 1px 0px black;
-    margin: 0px;
-    padding: 0px;
-    max-width: 350px;
-    }
-.banner_headline h2{
-    color: white;
-    font-size: 21px;
-    text-shadow: 0px 1px 0px black;
-    margin: 0px;
-    padding: 0px;
-    margin-top: 25px;
-    max-width: 350px;
+.d.pel{
 
-        }
-.banner_options{
-    display: flex;
-    height: 210px;
-    justify-items: center;
-    margin-top: 165px;
-
+    margin-right: 120px;
+    height:40px ;
+    width: 60px;
 }
-.banner1{
-    flex: 1;
-    background-color: #39aee1;
-    color: white;
-
-}
-.banner2{
-    flex:1;
-    background-color:#0079c7 ;
-    color: white;
-
-}
-.banner3{
-    flex:1;
-    background-color:#2b4c99 ;
-    color: white;
-
+.imagem{
+    margin: 10px 10px 10px 10px;
 }
