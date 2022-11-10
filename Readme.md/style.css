@@ -2,35 +2,115 @@ body{
     margin: 0;
     padding: 0;
 }
-.gmail{
+.container{
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+    justify-content: space-between;
     width: 100%;
-    height: 55px;
+    max-height: 80px;
 }
-.google{
+.icones{
     display: flex;
-    padding: 50px 50px 50px 350px;
-    margin-bottom: 250px;
-}
-.email{
-    margin: 10px 10px 10px 10px;
     align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
 }
-.apps{
-    margin: 10px 10px 10px 10px;
-    height: 40px;
-    width: 60px;
-     
+.letras{
+    font-size: 15px;
+    padding: 10px;
 }
-.d.pel{
+.login{
+    background-color: #1A72E9;
+    color: white;
 
-    margin-right: 120px;
-    height:40px ;
-    width: 60px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
 }
-.imagem{
-    margin: 10px 10px 10px 10px;
+.app img{
+    height: 20px;
+    padding-left: 13px;
+    padding-right: 20px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+.Google{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    
+}
+.Google img{
+    height: 100px;
+}
+.pesquisa{
+    display: flex;
+    justify-content: center
+
+}
+.pesquisa input{
+    width: 450px;
+    height: 30px;
+    border-radius: 35px;
+    border: 1px solid black;
+    text-align: start;
+}
+input [type=search]{
+    outline: none
+
+}
+.pesquisa img{
+    height: 19px;
+  padding-top: 5px;
+
+}
+.debaixo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 370px;
+    padding-left: 370px;
+
+ }
+ button{
+    height: 30px;
+    align-items: center;
+    border: none;
+
+ }
+ .imagens{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+ }
+footer{
+    background-color: #F2F2F2;
+    margin-top: 229px;
+    border-bottom: 1px solid #DADCE0;
+    align-items: center;
+
+}
+.brasil{
+    height: 27px;
+    padding-left: 15px ;
+    padding-top: px;
+
+}
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-top: 2px solid #DADCE0;
+    height: 25px;
+    align-items: center;
+
+}
+.cima{
+    padding-left: 15px ;
+}
+.baixo{
+padding-right: 15px;
 }
