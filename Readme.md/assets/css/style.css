@@ -422,6 +422,7 @@ height: inherit;
 .section_team .slide{
     width: 250px;
     height: 300px;
+    min-height: 300px;
     display: inline-block;
     background-color: white;
     margin-right: 20px;
@@ -684,7 +685,7 @@ height: 100%;
     margin-right: 30px;
     margin-left: 50px;
 }
-.section_premium--left{
+.section_premium---left{
 padding-right: 18px;
 }
 .section_premium--rigth .premium_title{
@@ -1086,6 +1087,7 @@ margin-left: 170px;
 @media (max-width:450px){
    .logo{
     margin-left: 20px;
+    
    }
     nav{
     display: none;
@@ -1159,10 +1161,14 @@ height: 180px;
   .section_team{
       max-width: 240px;
   }
-
+.section_team .slidearea{
+    height: 200px;
+    width: 200px;
+}
 
   .texto{
     margin-left: 50px;
+    margin-right: 50px;
   }
   .section_body_price{
     flex-direction: column;
@@ -1178,7 +1184,13 @@ height: 180px;
   .section_premium{
     flex-direction: column;
   }
+.section_premium---left img{
+    display: flex;
+    justify-content: center;
+}
+.button_1{
 
+}
   .section_somefact{
   min-width: 100%;
   }
@@ -1189,9 +1201,17 @@ height: 180px;
   .bar_1{
   margin-left: 170px;
   }
+
+
+  .section_body_jhon .texto{
+font-size: 10px;
+margin-left: 5px;
+margin-right: 5px;
+  }
   .section-map{
-      padding-left: 30px;
-      padding-right: 30px;
+      padding:0;
+      padding-bottom: 250px;
+    
   }
   .section-maparea{
       width: auto;
@@ -1199,4 +1219,5 @@ height: 180px;
   .section-info{
       width: auto;
   }
+
 }
